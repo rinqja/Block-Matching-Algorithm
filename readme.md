@@ -73,7 +73,7 @@ project_directory/
 │ ├── depth_map_unfiltered.png
 │ └── error_metrics.txt
 │
-└── main.py # This script
+└── main.py
 
 Usage
 Prepare Input Images: Place the left and right stereo images (bag1.png, bag2.png) and the ground truth depth map (bag_image.png) in the images folder.
