@@ -93,3 +93,11 @@ MAE (Mean Absolute Error): Measures absolute differences.
 RMSE (Root Mean Squared Error): Measures variance.
 MAPE (Mean Absolute Percentage Error): Measures percentage differences.
 RMSPE (Root Mean Squared Percentage Error): Squared percentage variance.
+
+### Error Metrics
+
+Calculated Metrics:
+MAE: Mean Absolute Error (lower is better)
+RMSE: Root Mean Squared Error (lower is better)
+MAPE: Mean Absolute Percentage Error (lower is better)
+RMSPE: Root Mean Squared Percentage Error (lower is better)
