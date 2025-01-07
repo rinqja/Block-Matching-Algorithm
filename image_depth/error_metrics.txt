@@ -1,0 +1,2 @@
+Unfiltered Depth Map - MAE: 97.34871673583984
+Median Filtered Depth Map - MAE: 97.34403991699219,
