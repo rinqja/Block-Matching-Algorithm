@@ -60,7 +60,8 @@ Install required Python libraries using `pip`:
 pip install opencv-python opencv-contrib-python numpy
 ```
 
-Usage
+### Usage
+
 Prepare Input Images: Place the left and right stereo images (bag1.png, bag2.png) and the ground truth depth map (bag_image.png) in the images folder.
 
 Run the Script: Execute the script using:
@@ -73,3 +74,22 @@ bash
 View Outputs: Processed disparity maps, depth maps, and error metrics will be saved in the image_depth/ folder.
 
 Key outputs are also displayed during execution.
+
+### Outputs
+
+Disparity Maps:
+
+Before Filtering (\_disparity_map_before_filter.png)
+After Median Filtering (\_disparity_map_median_filter.png)
+After Bilateral Filtering (\_disparity_map_bilateral_filter.png)
+After WLS Filtering (\_disparity_map_wls_filter.png)
+Depth Maps:
+
+Depth maps corresponding to each filtering technique (_depth_map_{filter_name}.png)
+Error Metrics:
+
+Saved in error_metrics.txt:
+MAE (Mean Absolute Error): Measures absolute differences.
+RMSE (Root Mean Squared Error): Measures variance.
+MAPE (Mean Absolute Percentage Error): Measures percentage differences.
+RMSPE (Root Mean Squared Percentage Error): Squared percentage variance.
