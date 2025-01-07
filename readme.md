@@ -60,24 +60,6 @@ Install required Python libraries using `pip`:
 pip install opencv-python opencv-contrib-python numpy
 ```
 
-project_directory/
-│
-├── images/ # Input images folder
-│ ├── bag1.png # Left stereo image
-│ ├── bag2.png # Right stereo image
-│ └── bag_image.png # Ground truth depth map
-│
-├── image_depth/ # Output directory (created automatically)
-│ ├── disparity_map_before_filter.png # Disparity map (unfiltered)
-│ ├── disparity_map_median_filter.png # Disparity map after median filtering
-│ ├── depth_map_unfiltered.png # Depth map (unfiltered)
-│ ├── depth_map_median_filter.png # Depth map (median filtered)
-│ ├── depth_map_bilateral_filter.png # Depth map (bilateral filtered)
-│ ├── depth_map_wls_filter.png # Depth map (WLS filtered)
-│ └── error_metrics.txt # Evaluation metrics for depth maps
-│
-└── main.py # Main script to execute the pipeline
-
 Usage
 Prepare Input Images: Place the left and right stereo images (bag1.png, bag2.png) and the ground truth depth map (bag_image.png) in the images folder.
 
